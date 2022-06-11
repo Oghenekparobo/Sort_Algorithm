@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dist/style.css">
+    <title>sort algorithm</title>
+</head>
+
+<body>
+    <div class="wrapper bg-purple-500 h-screen">
+
+        <div class="container">
+
+            <div class="pt-14">
+                <h1 class="header-text "><span class="text-gold">Welcome </span> to <span
+                        class="text-orange-900">the</span> SortOut
+                </h1>
+            </div>
+
+            <div class="sort-container text-center mx-20 pt-20">
+
+                <div class="sort-group ">
+                    <select class="sort-dec w-full text-2xl outline-none text-orange-900" id="sort-parent">
+                        <option class="text-purple-500 text-xl" value="sort">sort</option>
+                        <option class="text-purple-500 text-xl" value="asc">ASC</option>
+                        <option class="text-purple-500 text-xl" value="desc">DESC</option>
+                    </select>
+                </div>
+
+                <div class="sort-group pt-10 text-2xl w-full">
+                    <input type="number" class="text-purple-500 sort-input rounded-full p-10 outline-none">
+                </div>
+            </div>
+
+
+            <div class=" text-center text-gold text-3xl tracking-widest  pt-20">
+                <p class="sort-output"></p>
+            </div>
+
+            
+            <div class=" text-center text-gold text-3xl tracking-widest  pt-20">
+                <p id="time-output"></p>
+            </div>
+
+
+
+        </div>
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

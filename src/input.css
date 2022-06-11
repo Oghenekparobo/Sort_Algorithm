@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body{
+    font-family: 'Pacifico', cursive;
+}
+
+.header-text{
+    @apply  text-center text-white text-4xl
+}
